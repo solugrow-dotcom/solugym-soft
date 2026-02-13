@@ -1,0 +1,5 @@
+# Clean Install Log
+1. Killed all node processes.
+2. Deleted node_modules.
+3. Deleted package-lock.json.
+4. Running npm install...
