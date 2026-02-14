@@ -1,6 +1,4 @@
-"use client"
 import Link from "next/link"
-
 import { Button } from "@/components/ui/button"
 import { ArrowRight, PlayCircle } from "lucide-react"
 import { DashboardMockup } from "./DashboardMockup"
@@ -9,11 +7,11 @@ import { motion } from "framer-motion"
 export function Hero() {
     return (
         <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-[#020202]">
-            {/* Cinematic Background Image Overlay & CSS Fallback */}
+            {/* Cinematic Background Image Overlay */}
             <div
                 className="absolute inset-0 z-0 opacity-40 mix-blend-overlay"
                 style={{
-                    backgroundImage: 'url("/cinematic_gym_background.png"), radial-gradient(circle at 20% 30%, #F59E0B15 0%, transparent 50%), radial-gradient(circle at 80% 70%, #8B5CF610 0%, transparent 50%)',
+                    backgroundImage: 'url("/cinematic_gym_background.png")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}
